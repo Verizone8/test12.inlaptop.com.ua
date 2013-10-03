@@ -281,13 +281,14 @@ html[xmlns] .clearfix { display: block; }
 #header {
 	margin:0; padding:0;
 	width:auto; 
-	background:#171615 url(images/header.gif) repeat-x top center;
+	background:#171615 url(images/header.png) repeat-x top center;
 	border-bottom:1px solid #4a4d4c;
 	clear:both;
 }
 
 #logo {
-	margin:0; padding:50px 0 15px 0;
+	margin:0;
+	margin-left:-1%;
 	width:580px; height:auto;
 	background:url(images/header-shade.gif) no-repeat top right;
 	float:left;
