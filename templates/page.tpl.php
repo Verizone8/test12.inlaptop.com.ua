@@ -77,11 +77,11 @@ print drupal_get_js('header', $js); ?>
     <div class="main_view">
         <div class="window">
     
-            <div class="image_reel">
-                <a href="#"><img src="<?php print drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide3.jpg" alt="" /></a>
-                <a href="#"><img src="<?php print drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide1.jpg" alt="" /></a>
-                <a href="#"><img src="<?php print drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide2.jpg" alt="" /></a>
-            </div>
+           <div class="image_reel">
+<a href="#"><img src="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide3.jpg" alt="" /></a>
+<a href="#"><img src="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide1.jpg" alt="" /></a>
+<a href="#"><img src="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide2.jpg" alt="" /></a>
+</div>
     
         </div>
         <div class="paging">
@@ -130,14 +130,14 @@ print drupal_get_js('header', $js); ?>
     <div class="container footer-divider clearfix">
     
         <div id="footer-left">
-        <h4>Lorem ipsum </h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis velit non ipsum accumsan eget ultricies metus ultricies. Nam dictum est ut ligula dapibus scelerisque. Vestibulum eu tincidunt urna. Etiam nisl neque, imperdiet ut laoreet nec, auctor et turpis. Proin congue, velit in auctor dignissim, sapien magna vulputate ante, et adipiscing nulla dolor a ligula. Nunc nec euismod velit.
+        <a href="http://www.apple.com/pr/library/2013/09/24Apple-Updates-iMac.html"><h4>Apple Updates iMac </h4></a>
+        CUPERTINO, California—September 24, 2013—Apple® today updated iMac® with fourth generation Intel quad-core processors, new graphics, next generation Wi-Fi and faster PCIe flash storage options. The updated iMac brings the latest technology to the stunningly thin design and gorgeous display of the world’s leading all-in-one desktop.
         <?php print $footer_left; ?>
         </div>
     
         <div id="footer-right">
-        <h4>Lorem ipsum </h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis velit non ipsum accumsan eget ultricies metus ultricies. Nam dictum est ut ligula dapibus scelerisque. Vestibulum eu tincidunt urna. Etiam nisl neque, imperdiet ut laoreet nec, auctor et turpis. Proin congue, velit in auctor dignissim, sapien magna vulputate ante, et adipiscing nulla dolor a ligula. Nunc nec euismod velit.
+        <a href="http://www.apple.com/pr/library/2013/09/23First-Weekend-iPhone-Sales-Top-Nine-Million-Sets-New-Record.html"><h4>First Weekend iPhone Sales Top Nine Million, Sets New Record</h4></a>
+        LCUPERTINO, California―September 23, 2013―Apple® today announced it has sold a record-breaking nine million new iPhone® 5s and iPhone 5c models, just three days after the launch of the new iPhones on September 20. In addition, more than 200 million iOS devices are now running the completely redesigned iOS 7, making it the fastest software upgrade in history. Both iPhone 5s and iPhone 5c are available in the US, Australia, Canada, China, France, Germany, Hong Kong, Japan, Puerto Rico, Singapore and the UK. Demand for iPhone 5s has exceeded the initial supply, and many online orders are scheduled to be shipped in the coming weeks.
         <?php print $footer_right; ?>
         </div>
         
@@ -162,9 +162,7 @@ print drupal_get_js('header', $js); ?>
 <div id="link-back">
     <div class="container clearfix">
     
-        <a title="Brought To You By: www.SmashingMagazine.com" class="smashing" href="http://www.smashingmagazine.com" target="_blank">Brought to you By: www.SmashingMagazine.com</a>
-        <a title="In Partner With: www.WeFunction.com" class="function" href="http://www.wefunction.com" target="_blank">In Partner with: www.WeFunction.com</a>
-        <a title="Drupalizing" class="drupalizing" href="http://www.drupalizing.com" target="_blank">Drupalizing</a>
+       
         
         <div id="footer-message" style="clear:both;">
         <?php print $footer_message; ?>
