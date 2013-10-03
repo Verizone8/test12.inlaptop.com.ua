@@ -33,7 +33,7 @@
 
 <?php if ($content) : ?>
   <h2 class="comments-header">
-    <?php print $node->comment_count ?> <?php print t('Comments'); ?>
+    <?php print $node->comment_count ?> <?php print t('Отзывов'); ?>
   </h2>
 <div id="comments" class="comment block <?php print $skinr; ?>">
   <?php print $content; ?>
